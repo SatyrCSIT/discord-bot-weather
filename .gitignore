@@ -1,0 +1,8 @@
+echo "node_modules/
+.env
+*.log
+.DS_Store" > .gitignore
+
+git init
+git add .
+git commit -m "Initial commit: Weather Discord Bot"

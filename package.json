@@ -1,0 +1,24 @@
+{
+    "name": "weather-discord-bot",
+    "version": "1.0.0",
+    "description": "Discord bot for weather checking with Thai and English support",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "dependencies": {
+        "axios": "^1.11.0",
+        "discord.js": "^14.21.0",
+        "dotenv": "^16.6.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    },
+    "engines": {
+        "node": ">=16.9.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
